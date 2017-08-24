@@ -8,10 +8,15 @@ public class Test {
 		int answer = addCalc(num1, num2);
 		
 		System.out.println(answer);
+		System.out.println(multiCalc(num1, num2));
 	}
 	
 	static int addCalc(int num1, int num2){
 		return num1 + num2;
+	}
+	
+	static int multiCalc(int num1, int num2){
+		return num1 * num2;
 	}
 
 }
